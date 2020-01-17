@@ -1,0 +1,66 @@
+﻿@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+BODY {
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+    color:#666;
+    background:url('https://i.imgur.com/qUOQJBR.png') fixed center;
+    background-repeat: repeat;
+    background-size: 200% 50%;
+
+background-color: #EEE;
+}
+a {color: #6979bd;transition: all 0.25s ease;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  text-decoration:none;
+}
+a:hover {color:#fff!important;text-shadow:0px 0px 5px #000, 0px 0px 8px #000;}
+a:visited {color: #6979bd;}
+
+H1 {font-size: 24pt; text-align:center; font-weight:300; color:#eee;}
+H2 {font-size: 18pt; text-align:center; font-weight:300; color:#CCC;}
+H3 {font-size: 14pt; text-align:center; font-weight:300; color:#CCC;}
+.wrap{  
+    position: relative;
+    text-align: center;
+	width: 800px;
+    background:rgba(255, 255, 255, 0.1);
+    border-radius: 0px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.58);
+    margin: auto;
+}
+.scar_bar{margin: 20px;text-align:center;}
+.toptr {
+    background: #444;
+    height: 40px;
+    color: #FFF;
+}
+tr.toptr th {
+    font-weight: 300;
+}
+    
+.tbody{
+padding:30px;
+}
+tbody.databody tr:hover {
+    background: #FFF;
+    color:#24485a;
+}
+
+tbody.databody {
+    line-height: 30px;
+    color:#FFF;
+}
+
+input[type="text"] {
+    border-radius: 30px;
+    line-height: 24px;
+    width: 250px;
+    color: #666;
+    padding-left: 10px;
+    text-align: center;
+    font-family: '微軟正黑體',Verdana,LiHei Pro;
+    border: none;
+}
+
